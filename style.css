@@ -152,21 +152,24 @@ h3 {
 
 .workGrid {
     display: grid;
+    margin: 0px 5%;
     grid-template-columns: 30% auto;
+    grid-template-areas: 
+    "item-A item-A1"
+    "item-B item-B1"
+    "item-C item-C1";
     border: 2px solid rgb(43, 43, 133);
     border-radius: 20px;
     box-sizing: border-box;
-    margin: 50px;
     
 }
 
-.workGrid-item {
-    background-color: blanchedalmond;
-    
+#workGrid-item {
+    color: beige;
     padding: 20px;
     border-radius: 20px;
 }
-
+/*
 .item-1 {
    
 }
@@ -188,6 +191,7 @@ h3 {
 }
 
 /*footer*/
+
 
 footer {
     background: #E5EDFF;
@@ -236,3 +240,24 @@ i.mysize {font-size: 36px;}
 footer i {
     float: right;
 }
+
+@media only screen and (max-width: 600){
+    .flexContainer {
+        flex-direction: column; }
+    .flexbox-item {
+        width: 100%;
+    }
+    .workGrid {
+        grid-template-rows: 300px 300px 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "item-A"
+        "item-A1"
+        "item-B"
+        "item-B1"
+        "item-C"
+        "item-C1";
+    }
+}
+
+
