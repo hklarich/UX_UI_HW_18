@@ -130,6 +130,7 @@ h3 {
     border-radius: 20px;
     padding: 20px;
     margin: 50px;
+
 }
 
 .flexbox-item {
@@ -164,10 +165,11 @@ h3 {
     
 }
 
-#workGrid-item {
-    color: beige;
+.workGrid-item {
+    
     padding: 20px;
     border-radius: 20px;
+    border: 2px solid red;
 }
 /*
 .item-1 {
@@ -241,11 +243,14 @@ footer i {
     float: right;
 }
 
-@media only screen and (max-width: 600){
+@media only screen and (max-width: 600px){
     .flexContainer {
-        flex-direction: column; }
+        flex-direction: column; 
+  
+    }
     .flexbox-item {
-        width: 100%;
+        flex-direction: column;
+        width: 90%;
     }
     .workGrid {
         grid-template-rows: 300px 300px 300px 300px 300px 300px;
