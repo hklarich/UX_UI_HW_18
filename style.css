@@ -140,7 +140,7 @@ h3 {
 .flexContainer {
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid red;
+    border: 2px solid rgb(98, 55, 116);
     border-radius: 20px;
     padding: 20px;
     margin: 50px;
@@ -153,7 +153,7 @@ h3 {
     border-color: 2px solid black;
     padding: 20px 20px 20px 20px;
     margin: 20px;
-    background-color: pink;
+    background-color: #E5EDFF;
     border-radius: 10px;
 }
 
@@ -185,7 +185,7 @@ h3 {
 .workGrid {
     display: grid;
     justify-content: space-evenly;
-    border: 2px solid red;  
+    border: 2px solid rgb(98, 55, 116);  
     border-radius: 20px;
     padding: 20px;
     margin: 50px;
@@ -198,7 +198,7 @@ h3 {
     
 }
 .workGrid-item {
-    background-color: pink;
+    background-color: #E5EDFF;
     border-radius: 10px;
     padding: 20px 20px 20px 20px;
     margin: 20px;
