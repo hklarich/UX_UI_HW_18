@@ -107,7 +107,6 @@ hr.solid {
 h1 {
     font-family: Koralle NF;
     font-size: 48px;
-  
 }
 
 h2 {
@@ -117,7 +116,6 @@ h2 {
 
 .content p {
     justify-content: center;
-
 }
 
 /*My Skills Section*/
@@ -144,7 +142,6 @@ h3 {
     border-radius: 20px;
     padding: 20px;
     margin: 50px;
-   
 }
 
 .flexbox-item {
@@ -195,19 +192,21 @@ h3 {
     "item-A item-A1"
     "item-B item-B1"
     "item-C item-C1";
-    
 }
+
 .workGrid-item {
     background-color: #E5EDFF;
     border-radius: 10px;
     padding: 20px 20px 20px 20px;
     margin: 20px;
-    
+}
+
+.workGrid-item item-A {
+    align-content: center;
 }
 
 .workGrid-item item-C {
     display: inline-flex;
-
 }
 
 .workGrid-item p {
@@ -294,7 +293,6 @@ footer i {
             position: relative;
             top: 20px;
             margin: 20px;
-        
         }
         
         .flexContainer {
@@ -325,10 +323,7 @@ footer i {
             "item-C1";
         }
     
-    
     };
-
-};
 
 @media only screen and (max-width: 600px){
 
@@ -342,13 +337,11 @@ footer i {
         position: relative;
         top: 20px;
         margin: -15px;
-    
     }
 
     h1 {
         font-size: 36px;
         text-align: center;
-
     }
 
     h3 {
@@ -369,16 +362,14 @@ footer i {
         position: relative;
         top: 20px;
         margin: 20px;
-    
     }
     
     .flexContainer {
         flex-direction: column; 
-  
     }
+
     .flexbox-item {
-        flex-direction: column;
-       
+        flex-direction: column; 
     }
 
     .myWork {
